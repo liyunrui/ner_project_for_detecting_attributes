@@ -1,0 +1,3 @@
+[[10/15/2018 12:09:19 PM]] input shape / lazada_and_amazon : (253553, 7)
+[[10/15/2018 12:09:32 PM]] output shape / lazada_and_amazon: (253550, 20)
+[[10/15/2018 12:09:38 PM]] finish saving lazada_and_amazon

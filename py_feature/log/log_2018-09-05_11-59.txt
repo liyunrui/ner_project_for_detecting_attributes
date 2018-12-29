@@ -1,0 +1,1 @@
+[[09/05/2018 11:59:08 AM]] input shape / tv_and_laptop : (41443, 4)

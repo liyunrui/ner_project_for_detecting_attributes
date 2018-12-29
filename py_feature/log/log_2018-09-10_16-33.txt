@@ -1,0 +1,12 @@
+[[09/10/2018 04:33:24 PM]] input shape / personal_care_and_beauty : (50535, 4)
+[[09/10/2018 04:33:24 PM]] input shape / tv_and_laptop : (41443, 4)
+[[09/10/2018 04:35:08 PM]] output shape / personal_care_and_beauty: (50526, 304)
+[[09/10/2018 04:35:08 PM]] finish saving personal_care_and_beauty
+[[09/10/2018 04:35:17 PM]] output shape / tv_and_laptop: (41443, 304)
+[[09/10/2018 04:35:17 PM]] finish saving tv_and_laptop
+[[09/10/2018 04:35:18 PM]] input shape / tv_laptop_amazon : (103304, 4)
+[[09/10/2018 04:35:19 PM]] input shape / beauty_amazon : (815642, 4)
+[[09/10/2018 04:36:58 PM]] output shape / tv_laptop_amazon: (103302, 304)
+[[09/10/2018 04:36:59 PM]] finish saving tv_laptop_amazon
+[[09/10/2018 04:37:02 PM]] output shape / beauty_amazon: (815638, 304)
+[[09/10/2018 04:37:06 PM]] finish saving beauty_amazon

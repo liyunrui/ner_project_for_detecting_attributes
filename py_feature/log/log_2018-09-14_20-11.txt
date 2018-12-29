@@ -1,0 +1,3 @@
+[[09/14/2018 08:11:23 PM]] input shape / beauty_amazon : (815642, 4)
+[[09/14/2018 08:11:24 PM]] size of vocabulary/ beauty_amazon : 40649
+[[09/14/2018 08:11:24 PM]] Starting computing tf-idf / beauty_amazon

@@ -1,0 +1,3 @@
+[[10/15/2018 03:25:31 PM]] input shape / lazada_and_amazon : (253553, 7)
+[[10/15/2018 03:25:35 PM]] input shape / lazada_and_amazon : (253553, 7)
+[[10/15/2018 03:25:35 PM]] size of vocabulary/ lazada_and_amazon : 14736

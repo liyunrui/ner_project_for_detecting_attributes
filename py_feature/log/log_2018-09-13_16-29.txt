@@ -1,0 +1,15 @@
+[[09/13/2018 04:29:07 PM]] input shape / personal_care_and_beauty : (50535, 4)
+[[09/13/2018 04:29:07 PM]] input shape / tv_and_laptop : (41443, 4)
+[[09/13/2018 04:29:07 PM]] size of vocabulary/ personal_care_and_beauty : 2992
+[[09/13/2018 04:29:07 PM]] size of vocabulary/ tv_and_laptop : 5820
+[[09/13/2018 04:29:07 PM]] input shape / tv_laptop_amazon : (103304, 4)
+[[09/13/2018 04:29:07 PM]] size of vocabulary/ tv_laptop_amazon : 16103
+[[09/13/2018 04:29:08 PM]] input shape / beauty_amazon : (815642, 4)
+[[09/13/2018 04:29:09 PM]] size of vocabulary/ beauty_amazon : 40649
+[[09/13/2018 04:29:09 PM]] Starting computing tf-idf / beauty_amazon
+[[09/13/2018 04:29:17 PM]] output shape / personal_care_and_beauty: (50526, 5)
+[[09/13/2018 04:29:17 PM]] finish saving personal_care_and_beauty
+[[09/13/2018 04:29:17 PM]] output shape / tv_and_laptop: (41443, 5)
+[[09/13/2018 04:29:18 PM]] finish saving tv_and_laptop
+[[09/13/2018 04:29:33 PM]] output shape / tv_laptop_amazon: (103302, 5)
+[[09/13/2018 04:29:34 PM]] finish saving tv_laptop_amazon

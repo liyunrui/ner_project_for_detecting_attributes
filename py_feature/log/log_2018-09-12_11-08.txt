@@ -1,0 +1,3 @@
+[[09/12/2018 11:08:54 AM]] input shape / tv_and_laptop : (41443, 4)
+[[09/12/2018 11:08:54 AM]] input shape / personal_care_and_beauty : (50535, 4)
+[[09/12/2018 11:08:54 AM]] size of vocabulary/ tv_and_laptop : 5820

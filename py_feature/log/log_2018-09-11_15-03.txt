@@ -1,0 +1,2 @@
+[[09/11/2018 03:03:34 PM]] input shape / tv_and_laptop : (41443, 4)
+[[09/11/2018 03:03:34 PM]] size of vocabulary/ tv_and_laptop : 5820

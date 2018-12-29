@@ -1,0 +1,7 @@
+[[09/05/2018 07:26:40 PM]] input shape / tv_and_laptop : (41443, 4)
+[[09/05/2018 07:26:52 PM]] output shape / tv_and_laptop: (41443, 28)
+[[09/05/2018 07:26:53 PM]] finish saving tv_and_laptop
+[[09/05/2018 07:26:53 PM]] input shape / personal_care_and_beauty : (50535, 4)
+[[09/05/2018 07:27:07 PM]] output shape / personal_care_and_beauty: (50526, 28)
+[[09/05/2018 07:27:09 PM]] finish saving personal_care_and_beauty
+[[09/05/2018 07:27:09 PM]] input shape / beauty_amazon : (822236, 4)

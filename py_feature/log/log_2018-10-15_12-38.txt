@@ -1,0 +1,7 @@
+[[10/15/2018 12:38:44 PM]] input shape / lazada_and_amazon : (253553, 7)
+[[10/15/2018 12:38:44 PM]] size of vocabulary/ lazada_and_amazon : 14736
+[[10/15/2018 12:38:44 PM]] Starting computing tf-idf / lazada_and_amazon
+[[10/15/2018 01:56:45 PM]] counts/ lazada_and_amazon : (24028, 14737)
+[[10/15/2018 01:57:42 PM]] Finish tf-idf computation / lazada_and_amazon
+[[10/15/2018 01:58:12 PM]] output shape / lazada_and_amazon: (253550, 8)
+[[10/15/2018 01:58:20 PM]] finish saving lazada_and_amazon

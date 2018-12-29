@@ -1,0 +1,4 @@
+[[09/04/2018 08:33:40 PM]] input shape / tv_and_laptop : (41443, 4)
+[[09/04/2018 08:33:40 PM]] input shape / personal_care_and_beauty : (50535, 4)
+[[09/04/2018 08:33:41 PM]] input shape / tv_laptop_amazon : (103928, 4)
+[[09/04/2018 08:33:41 PM]] input shape / beauty_amazon : (822236, 4)

@@ -1,0 +1,1 @@
+[[10/15/2018 03:31:23 PM]] input shape / lazada_and_amazon : (253553, 7)
