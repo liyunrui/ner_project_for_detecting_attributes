@@ -1,0 +1,4 @@
+[[10/04/2018 06:33:39 PM]] it spend 0.08082372744878133 mins on preprocessing
+[[10/04/2018 06:47:59 PM]] it spend 14.318812159697215 mins on word embedding 
+[[10/04/2018 06:47:59 PM]] number of sequences : 24028
+[[10/04/2018 06:48:12 PM]] shape of df : (253553, 7)

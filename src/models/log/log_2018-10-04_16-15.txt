@@ -1,0 +1,3 @@
+[[10/04/2018 04:15:51 PM]] it spend 0.06366299390792847 mins on preprocessing
+[[10/04/2018 04:29:17 PM]] it spend 13.431200444698334 mins on word embedding 
+[[10/04/2018 04:29:17 PM]] number of sequences : 24028

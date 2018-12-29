@@ -1,0 +1,238 @@
+[[11/01/2018 12:16:44 PM]] 
+new run with parameters:
+{'USE_CHARS': True,
+ 'batch_size': 128,
+ 'checkpoint_dir': 'checkpoints_w_causal',
+ 'dilation_rate': [1, 2, 4, 8],
+ 'dim_char': 100,
+ 'dim_word': 300,
+ 'early_stopping_steps': 3000,
+ 'enable_parameter_averaging': False,
+ 'filter_widths': 3,
+ 'grad_clip': 5,
+ 'hidden_size_char': 100,
+ 'hidden_size_cnn': 300,
+ 'keep_prob_scalar': 1.0,
+ 'learning_rate': 0.001,
+ 'log_dir': 'logs',
+ 'log_interval': 1,
+ 'loss_averaging_window': 100,
+ 'max_seq_len': 36,
+ 'max_word_length': 54,
+ 'metric': 'f1',
+ 'min_steps_to_checkpoint': 500,
+ 'nchars': 77,
+ 'ntags': 3,
+ 'num_hidden_layers': 4,
+ 'num_restarts': 0,
+ 'num_training_steps': 15000,
+ 'num_validation_batches': 25,
+ 'nwords': 24475,
+ 'optimizer': 'adam',
+ 'prediction_dir': 'predictions_w_causal',
+ 'reader': <__main__.DataReader object at 0x7f343f0332b0>,
+ 'regularization_constant': 0.0,
+ 'trainable_embedding': False,
+ 'use_evaluation_metric_as_early_stopping': True,
+ 'warm_start_init_step': 0}
+[[11/01/2018 12:16:46 PM]] all parameters:
+[[11/01/2018 12:16:46 PM]] [('word_embeddings:0', [24475, 300]),
+ ('char_embeddings:0', [77, 100]),
+ ('bidirectional_rnn/fw/lstm_cell/kernel:0', [200, 400]),
+ ('bidirectional_rnn/fw/lstm_cell/bias:0', [400]),
+ ('bidirectional_rnn/bw/lstm_cell/kernel:0', [200, 400]),
+ ('bidirectional_rnn/bw/lstm_cell/bias:0', [400]),
+ ('cnn-0/weights:0', [3, 500, 300]),
+ ('cnn-0/biases:0', [300]),
+ ('cnn-1/weights:0', [3, 300, 300]),
+ ('cnn-1/biases:0', [300]),
+ ('cnn-2/weights:0', [3, 300, 300]),
+ ('cnn-2/biases:0', [300]),
+ ('cnn-3/weights:0', [3, 300, 300]),
+ ('cnn-3/biases:0', [300]),
+ ('output-layer/weights:0', [300, 3]),
+ ('output-layer/biases:0', [3]),
+ ('Variable:0', []),
+ ('Variable_1:0', []),
+ ('beta1_power:0', []),
+ ('beta2_power:0', []),
+ ('char_embeddings/Adam:0', [77, 100]),
+ ('char_embeddings/Adam_1:0', [77, 100]),
+ ('bidirectional_rnn/fw/lstm_cell/kernel/Adam:0', [200, 400]),
+ ('bidirectional_rnn/fw/lstm_cell/kernel/Adam_1:0', [200, 400]),
+ ('bidirectional_rnn/fw/lstm_cell/bias/Adam:0', [400]),
+ ('bidirectional_rnn/fw/lstm_cell/bias/Adam_1:0', [400]),
+ ('bidirectional_rnn/bw/lstm_cell/kernel/Adam:0', [200, 400]),
+ ('bidirectional_rnn/bw/lstm_cell/kernel/Adam_1:0', [200, 400]),
+ ('bidirectional_rnn/bw/lstm_cell/bias/Adam:0', [400]),
+ ('bidirectional_rnn/bw/lstm_cell/bias/Adam_1:0', [400]),
+ ('cnn-0/weights/Adam:0', [3, 500, 300]),
+ ('cnn-0/weights/Adam_1:0', [3, 500, 300]),
+ ('cnn-0/biases/Adam:0', [300]),
+ ('cnn-0/biases/Adam_1:0', [300]),
+ ('cnn-1/weights/Adam:0', [3, 300, 300]),
+ ('cnn-1/weights/Adam_1:0', [3, 300, 300]),
+ ('cnn-1/biases/Adam:0', [300]),
+ ('cnn-1/biases/Adam_1:0', [300]),
+ ('cnn-2/weights/Adam:0', [3, 300, 300]),
+ ('cnn-2/weights/Adam_1:0', [3, 300, 300]),
+ ('cnn-2/biases/Adam:0', [300]),
+ ('cnn-2/biases/Adam_1:0', [300]),
+ ('cnn-3/weights/Adam:0', [3, 300, 300]),
+ ('cnn-3/weights/Adam_1:0', [3, 300, 300]),
+ ('cnn-3/biases/Adam:0', [300]),
+ ('cnn-3/biases/Adam_1:0', [300]),
+ ('output-layer/weights/Adam:0', [300, 3]),
+ ('output-layer/weights/Adam_1:0', [300, 3]),
+ ('output-layer/biases/Adam:0', [3]),
+ ('output-layer/biases/Adam_1:0', [3])]
+[[11/01/2018 12:16:46 PM]] trainable parameters:
+[[11/01/2018 12:16:46 PM]] [('char_embeddings:0', [77, 100]),
+ ('bidirectional_rnn/fw/lstm_cell/kernel:0', [200, 400]),
+ ('bidirectional_rnn/fw/lstm_cell/bias:0', [400]),
+ ('bidirectional_rnn/bw/lstm_cell/kernel:0', [200, 400]),
+ ('bidirectional_rnn/bw/lstm_cell/bias:0', [400]),
+ ('cnn-0/weights:0', [3, 500, 300]),
+ ('cnn-0/biases:0', [300]),
+ ('cnn-1/weights:0', [3, 300, 300]),
+ ('cnn-1/biases:0', [300]),
+ ('cnn-2/weights:0', [3, 300, 300]),
+ ('cnn-2/biases:0', [300]),
+ ('cnn-3/weights:0', [3, 300, 300]),
+ ('cnn-3/biases:0', [300]),
+ ('output-layer/weights:0', [300, 3]),
+ ('output-layer/biases:0', [3])]
+[[11/01/2018 12:16:46 PM]] trainable parameter count:
+[[11/01/2018 12:16:46 PM]] 1430603
+[[11/01/2018 12:16:54 PM]] [[step        0]]     [[train]]     loss: 3.01982474       [[val]]     score: 0.0344915        
+[[11/01/2018 12:16:57 PM]] [[step        1]]     [[train]]     loss: 1.85576543       [[val]]     score: 0.31213896       
+[[11/01/2018 12:17:00 PM]] [[step        2]]     [[train]]     loss: 1.38912824       [[val]]     score: 0.32907522       
+[[11/01/2018 12:17:02 PM]] [[step        3]]     [[train]]     loss: 1.22114971       [[val]]     score: 0.39267262       
+[[11/01/2018 12:17:05 PM]] [[step        4]]     [[train]]     loss: 1.05159454       [[val]]     score: 0.45516863       
+[[11/01/2018 12:17:08 PM]] [[step        5]]     [[train]]     loss: 0.92973594       [[val]]     score: 0.50679576       
+[[11/01/2018 12:17:10 PM]] [[step        6]]     [[train]]     loss: 0.84668485       [[val]]     score: 0.53882221       
+[[11/01/2018 12:17:13 PM]] [[step        7]]     [[train]]     loss: 0.77454735       [[val]]     score: 0.57102071       
+[[11/01/2018 12:17:15 PM]] [[step        8]]     [[train]]     loss: 0.71537241       [[val]]     score: 0.5963154        
+[[11/01/2018 12:17:18 PM]] [[step        9]]     [[train]]     loss: 0.6741615        [[val]]     score: 0.62136975       
+[[11/01/2018 12:17:21 PM]] [[step       10]]     [[train]]     loss: 0.62774607       [[val]]     score: 0.63147059       
+[[11/01/2018 12:17:23 PM]] [[step       11]]     [[train]]     loss: 0.58931333       [[val]]     score: 0.64387519       
+[[11/01/2018 12:17:26 PM]] [[step       12]]     [[train]]     loss: 0.55432563       [[val]]     score: 0.65589451       
+[[11/01/2018 12:17:29 PM]] [[step       13]]     [[train]]     loss: 0.52246895       [[val]]     score: 0.67251426       
+[[11/01/2018 12:17:31 PM]] [[step       14]]     [[train]]     loss: 0.49801333       [[val]]     score: 0.68766934       
+[[11/01/2018 12:17:34 PM]] [[step       15]]     [[train]]     loss: 0.47459874       [[val]]     score: 0.70106846       
+[[11/01/2018 12:17:37 PM]] [[step       16]]     [[train]]     loss: 0.45764654       [[val]]     score: 0.7135265        
+[[11/01/2018 12:17:39 PM]] [[step       17]]     [[train]]     loss: 0.44368294       [[val]]     score: 0.72415152       
+[[11/01/2018 12:17:42 PM]] [[step       18]]     [[train]]     loss: 0.42950867       [[val]]     score: 0.70936243       
+[[11/01/2018 12:17:45 PM]] [[step       19]]     [[train]]     loss: 0.43667667       [[val]]     score: 0.71984113       
+[[11/01/2018 12:17:47 PM]] [[step       20]]     [[train]]     loss: 0.42682649       [[val]]     score: 0.72737325       
+[[11/01/2018 12:17:50 PM]] [[step       21]]     [[train]]     loss: 0.43465901       [[val]]     score: 0.73346443       
+[[11/01/2018 12:17:53 PM]] [[step       22]]     [[train]]     loss: 0.46412379       [[val]]     score: 0.74021712       
+[[11/01/2018 12:17:55 PM]] [[step       23]]     [[train]]     loss: 0.45936026       [[val]]     score: 0.74705661       
+[[11/01/2018 12:17:58 PM]] [[step       24]]     [[train]]     loss: 0.49097157       [[val]]     score: 0.75352292       
+[[11/01/2018 12:18:00 PM]] [[step       25]]     [[train]]     loss: 0.52165847       [[val]]     score: 0.75525957       
+[[11/01/2018 12:18:03 PM]] [[step       26]]     [[train]]     loss: 0.52763399       [[val]]     score: 0.75195513       
+[[11/01/2018 12:18:06 PM]] [[step       27]]     [[train]]     loss: 0.52068082       [[val]]     score: 0.75467977       
+[[11/01/2018 12:18:08 PM]] [[step       28]]     [[train]]     loss: 0.51824392       [[val]]     score: 0.75739106       
+[[11/01/2018 12:18:11 PM]] [[step       29]]     [[train]]     loss: 0.5066606        [[val]]     score: 0.76011181       
+[[11/01/2018 12:18:14 PM]] [[step       30]]     [[train]]     loss: 0.50524182       [[val]]     score: 0.76408196       
+[[11/01/2018 12:18:16 PM]] [[step       31]]     [[train]]     loss: 0.49438654       [[val]]     score: 0.76812192       
+[[11/01/2018 12:18:19 PM]] [[step       32]]     [[train]]     loss: 0.48641228       [[val]]     score: 0.77217195       
+[[11/01/2018 12:18:22 PM]] [[step       33]]     [[train]]     loss: 0.47482941       [[val]]     score: 0.77617658       
+[[11/01/2018 12:18:24 PM]] [[step       34]]     [[train]]     loss: 0.47078545       [[val]]     score: 0.77982713       
+[[11/01/2018 12:18:27 PM]] [[step       35]]     [[train]]     loss: 0.46438295       [[val]]     score: 0.78362562       
+[[11/01/2018 12:18:30 PM]] [[step       36]]     [[train]]     loss: 0.45674076       [[val]]     score: 0.78710795       
+[[11/01/2018 12:18:32 PM]] [[step       37]]     [[train]]     loss: 0.45117394       [[val]]     score: 0.79007963       
+[[11/01/2018 12:18:35 PM]] [[step       38]]     [[train]]     loss: 0.44223373       [[val]]     score: 0.79242237       
+[[11/01/2018 12:18:38 PM]] [[step       39]]     [[train]]     loss: 0.43480444       [[val]]     score: 0.79462063       
+[[11/01/2018 12:18:40 PM]] [[step       40]]     [[train]]     loss: 0.42654925       [[val]]     score: 0.79722239       
+[[11/01/2018 12:18:43 PM]] [[step       41]]     [[train]]     loss: 0.42434869       [[val]]     score: 0.80023225       
+[[11/01/2018 12:18:46 PM]] [[step       42]]     [[train]]     loss: 0.41835287       [[val]]     score: 0.80358663       
+[[11/01/2018 12:18:48 PM]] [[step       43]]     [[train]]     loss: 0.41090275       [[val]]     score: 0.80667851       
+[[11/01/2018 12:18:51 PM]] [[step       44]]     [[train]]     loss: 0.40888241       [[val]]     score: 0.80991768       
+[[11/01/2018 12:18:54 PM]] [[step       45]]     [[train]]     loss: 0.40335909       [[val]]     score: 0.81277721       
+[[11/01/2018 12:18:56 PM]] [[step       46]]     [[train]]     loss: 0.39718203       [[val]]     score: 0.81556204       
+[[11/01/2018 12:18:59 PM]] [[step       47]]     [[train]]     loss: 0.39127252       [[val]]     score: 0.81817707       
+[[11/01/2018 12:19:02 PM]] [[step       48]]     [[train]]     loss: 0.38469156       [[val]]     score: 0.82057037       
+[[11/01/2018 12:19:04 PM]] [[step       49]]     [[train]]     loss: 0.3783481        [[val]]     score: 0.82288423       
+[[11/01/2018 12:19:07 PM]] [[step       50]]     [[train]]     loss: 0.37125207       [[val]]     score: 0.82496378       
+[[11/01/2018 12:19:09 PM]] [[step       51]]     [[train]]     loss: 0.36616525       [[val]]     score: 0.82665278       
+[[11/01/2018 12:19:12 PM]] [[step       52]]     [[train]]     loss: 0.36032854       [[val]]     score: 0.82821573       
+[[11/01/2018 12:19:15 PM]] [[step       53]]     [[train]]     loss: 0.35411407       [[val]]     score: 0.82985807       
+[[11/01/2018 12:19:17 PM]] [[step       54]]     [[train]]     loss: 0.34826807       [[val]]     score: 0.83168545       
+[[11/01/2018 12:19:20 PM]] [[step       55]]     [[train]]     loss: 0.34226024       [[val]]     score: 0.83355434       
+[[11/01/2018 12:19:23 PM]] [[step       56]]     [[train]]     loss: 0.33705589       [[val]]     score: 0.83564139       
+[[11/01/2018 12:19:25 PM]] [[step       57]]     [[train]]     loss: 0.33245228       [[val]]     score: 0.83766319       
+[[11/01/2018 12:19:28 PM]] [[step       58]]     [[train]]     loss: 0.32867677       [[val]]     score: 0.83970265       
+[[11/01/2018 12:19:31 PM]] [[step       59]]     [[train]]     loss: 0.32567468       [[val]]     score: 0.84170527       
+[[11/01/2018 12:19:33 PM]] [[step       60]]     [[train]]     loss: 0.3220694        [[val]]     score: 0.84369946       
+[[11/01/2018 12:19:36 PM]] [[step       61]]     [[train]]     loss: 0.31747752       [[val]]     score: 0.84556253       
+[[11/01/2018 12:19:39 PM]] [[step       62]]     [[train]]     loss: 0.31273916       [[val]]     score: 0.84746501       
+[[11/01/2018 12:19:41 PM]] [[step       63]]     [[train]]     loss: 0.30822111       [[val]]     score: 0.84929952       
+[[11/01/2018 12:19:44 PM]] [[step       64]]     [[train]]     loss: 0.30351422       [[val]]     score: 0.85110931       
+[[11/01/2018 12:19:47 PM]] [[step       65]]     [[train]]     loss: 0.29956038       [[val]]     score: 0.85286161       
+[[11/01/2018 12:19:49 PM]] [[step       66]]     [[train]]     loss: 0.29524122       [[val]]     score: 0.85456271       
+[[11/01/2018 12:19:52 PM]] [[step       67]]     [[train]]     loss: 0.29133866       [[val]]     score: 0.85624815       
+[[11/01/2018 12:19:55 PM]] [[step       68]]     [[train]]     loss: 0.28780701       [[val]]     score: 0.85782988       
+[[11/01/2018 12:19:57 PM]] [[step       69]]     [[train]]     loss: 0.2838383        [[val]]     score: 0.85932595       
+[[11/01/2018 12:20:00 PM]] [[step       70]]     [[train]]     loss: 0.28049993       [[val]]     score: 0.86074478       
+[[11/01/2018 12:20:03 PM]] [[step       71]]     [[train]]     loss: 0.27674029       [[val]]     score: 0.86216916       
+[[11/01/2018 12:20:05 PM]] [[step       72]]     [[train]]     loss: 0.27331803       [[val]]     score: 0.86351447       
+[[11/01/2018 12:20:08 PM]] [[step       73]]     [[train]]     loss: 0.2704141        [[val]]     score: 0.8648689        
+[[11/01/2018 12:20:11 PM]] [[step       74]]     [[train]]     loss: 0.26763426       [[val]]     score: 0.86618085       
+[[11/01/2018 12:20:13 PM]] [[step       75]]     [[train]]     loss: 0.26479918       [[val]]     score: 0.86742952       
+[[11/01/2018 12:20:16 PM]] [[step       76]]     [[train]]     loss: 0.26228108       [[val]]     score: 0.86854057       
+[[11/01/2018 12:20:19 PM]] [[step       77]]     [[train]]     loss: 0.25900765       [[val]]     score: 0.86973704       
+[[11/01/2018 12:20:21 PM]] [[step       78]]     [[train]]     loss: 0.25591106       [[val]]     score: 0.8709441        
+[[11/01/2018 12:20:24 PM]] [[step       79]]     [[train]]     loss: 0.25305164       [[val]]     score: 0.8721363        
+[[11/01/2018 12:20:27 PM]] [[step       80]]     [[train]]     loss: 0.25016608       [[val]]     score: 0.87327388       
+[[11/01/2018 12:20:29 PM]] [[step       81]]     [[train]]     loss: 0.24747337       [[val]]     score: 0.87444441       
+[[11/01/2018 12:20:32 PM]] [[step       82]]     [[train]]     loss: 0.24469437       [[val]]     score: 0.87552413       
+[[11/01/2018 12:20:35 PM]] [[step       83]]     [[train]]     loss: 0.2421708        [[val]]     score: 0.87661917       
+[[11/01/2018 12:20:37 PM]] [[step       84]]     [[train]]     loss: 0.23948909       [[val]]     score: 0.87757486       
+[[11/01/2018 12:20:40 PM]] [[step       85]]     [[train]]     loss: 0.23699428       [[val]]     score: 0.87855407       
+[[11/01/2018 12:20:42 PM]] [[step       86]]     [[train]]     loss: 0.23455903       [[val]]     score: 0.87948675       
+[[11/01/2018 12:20:45 PM]] [[step       87]]     [[train]]     loss: 0.23221557       [[val]]     score: 0.88050591       
+[[11/01/2018 12:20:48 PM]] [[step       88]]     [[train]]     loss: 0.22969769       [[val]]     score: 0.88153933       
+[[11/01/2018 12:20:50 PM]] [[step       89]]     [[train]]     loss: 0.22747248       [[val]]     score: 0.88252119       
+[[11/01/2018 12:20:53 PM]] [[step       90]]     [[train]]     loss: 0.22556881       [[val]]     score: 0.88348891       
+[[11/01/2018 12:20:56 PM]] [[step       91]]     [[train]]     loss: 0.22335322       [[val]]     score: 0.88446794       
+[[11/01/2018 12:20:58 PM]] [[step       92]]     [[train]]     loss: 0.22112576       [[val]]     score: 0.88543434       
+[[11/01/2018 12:21:01 PM]] [[step       93]]     [[train]]     loss: 0.21887795       [[val]]     score: 0.88631601       
+[[11/01/2018 12:21:04 PM]] [[step       94]]     [[train]]     loss: 0.21684575       [[val]]     score: 0.88721836       
+[[11/01/2018 12:21:06 PM]] [[step       95]]     [[train]]     loss: 0.21478777       [[val]]     score: 0.88811995       
+[[11/01/2018 12:21:09 PM]] [[step       96]]     [[train]]     loss: 0.21291384       [[val]]     score: 0.88899          
+[[11/01/2018 12:21:12 PM]] [[step       97]]     [[train]]     loss: 0.21110487       [[val]]     score: 0.88987333       
+[[11/01/2018 12:21:14 PM]] [[step       98]]     [[train]]     loss: 0.20913145       [[val]]     score: 0.89075921       
+[[11/01/2018 12:21:17 PM]] [[step       99]]     [[train]]     loss: 0.20713306       [[val]]     score: 0.89154706       
+[[11/01/2018 12:21:20 PM]] [[step      100]]     [[train]]     loss: 0.17719308       [[val]]     score: 0.90092729       
+[[11/01/2018 12:21:22 PM]] [[step      101]]     [[train]]     loss: 0.17037578       [[val]]     score: 0.9047473        
+[[11/01/2018 12:21:25 PM]] [[step      102]]     [[train]]     loss: 0.16599843       [[val]]     score: 0.91089978       
+[[11/01/2018 12:21:28 PM]] [[step      103]]     [[train]]     loss: 0.15883825       [[val]]     score: 0.91478391       
+[[11/01/2018 12:21:30 PM]] [[step      104]]     [[train]]     loss: 0.15546796       [[val]]     score: 0.91745626       
+[[11/01/2018 12:21:33 PM]] [[step      105]]     [[train]]     loss: 0.15277325       [[val]]     score: 0.91950201       
+[[11/01/2018 12:21:36 PM]] [[step      106]]     [[train]]     loss: 0.14934005       [[val]]     score: 0.92190406       
+[[11/01/2018 12:21:38 PM]] [[step      107]]     [[train]]     loss: 0.14691969       [[val]]     score: 0.923712         
+[[11/01/2018 12:21:41 PM]] [[step      108]]     [[train]]     loss: 0.14456985       [[val]]     score: 0.92544815       
+[[11/01/2018 12:21:44 PM]] [[step      109]]     [[train]]     loss: 0.14160055       [[val]]     score: 0.92668843       
+[[11/01/2018 12:21:46 PM]] [[step      110]]     [[train]]     loss: 0.14012376       [[val]]     score: 0.92913812       
+[[11/01/2018 12:21:49 PM]] [[step      111]]     [[train]]     loss: 0.13869133       [[val]]     score: 0.93104861       
+[[11/01/2018 12:21:52 PM]] [[step      112]]     [[train]]     loss: 0.13761627       [[val]]     score: 0.9327747        
+[[11/01/2018 12:21:54 PM]] [[step      113]]     [[train]]     loss: 0.13657419       [[val]]     score: 0.93358834       
+[[11/01/2018 12:21:57 PM]] [[step      114]]     [[train]]     loss: 0.1352884        [[val]]     score: 0.93426876       
+[[11/01/2018 12:22:00 PM]] [[step      115]]     [[train]]     loss: 0.13413582       [[val]]     score: 0.9349226        
+[[11/01/2018 12:22:04 PM]] [[step      116]]     [[train]]     loss: 0.13237708       [[val]]     score: 0.93552776       
+[[11/01/2018 12:22:09 PM]] [[step      117]]     [[train]]     loss: 0.13036377       [[val]]     score: 0.93626662       
+[[11/01/2018 12:22:13 PM]] [[step      118]]     [[train]]     loss: 0.12867016       [[val]]     score: 0.94161805       
+[[11/01/2018 12:22:16 PM]] [[step      119]]     [[train]]     loss: 0.12299589       [[val]]     score: 0.94216661       
+[[11/01/2018 12:22:18 PM]] [[step      120]]     [[train]]     loss: 0.12117684       [[val]]     score: 0.94309948       
+[[11/01/2018 12:22:23 PM]] [[step      121]]     [[train]]     loss: 0.11560901       [[val]]     score: 0.94428801       
+[[11/01/2018 12:22:26 PM]] [[step      122]]     [[train]]     loss: 0.1048219        [[val]]     score: 0.94514295       
+[[11/01/2018 12:22:28 PM]] [[step      123]]     [[train]]     loss: 0.10136622       [[val]]     score: 0.94587555       
+[[11/01/2018 12:22:31 PM]] [[step      124]]     [[train]]     loss: 0.08897603       [[val]]     score: 0.94651763       
+[[11/01/2018 12:22:34 PM]] [[step      125]]     [[train]]     loss: 0.07626461       [[val]]     score: 0.94825366       
+[[11/01/2018 12:22:36 PM]] [[step      126]]     [[train]]     loss: 0.06955891       [[val]]     score: 0.95128492       
+[[11/01/2018 12:22:39 PM]] [[step      127]]     [[train]]     loss: 0.06632662       [[val]]     score: 0.95272087       
+[[11/01/2018 12:22:42 PM]] [[step      128]]     [[train]]     loss: 0.0620245        [[val]]     score: 0.95416522       
+[[11/01/2018 12:22:44 PM]] [[step      129]]     [[train]]     loss: 0.06052844       [[val]]     score: 0.95559019       
+[[11/01/2018 12:22:47 PM]] [[step      130]]     [[train]]     loss: 0.0561673        [[val]]     score: 0.95653402       
+[[11/01/2018 12:22:50 PM]] [[step      131]]     [[train]]     loss: 0.05461997       [[val]]     score: 0.95742001       

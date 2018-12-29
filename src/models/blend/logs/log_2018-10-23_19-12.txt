@@ -1,0 +1,120 @@
+[[10/23/2018 07:13:00 PM]] Fold : 0
+[[10/23/2018 07:18:25 PM]] Fold : 1
+[[10/23/2018 07:52:15 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 34, 'lambda_l2': 0.016327625629750826, 'lambda_l1': 0.03759046467793624, 'min_child_samples': 99, 'bagging_fraction': 0.6092516951203761, 'feature_fraction': 0.7962521024024154, 'subsample_freq': 1, 'bagging_seed': 1540293178, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 07:52:15 PM]] best_score : 0.9174390577916627
+[[10/23/2018 07:52:17 PM]] Fold : 0
+[[10/23/2018 07:55:38 PM]] Fold : 1
+[[10/23/2018 08:26:59 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 45, 'lambda_l2': 0.027991155387705347, 'lambda_l1': 0.03164553173770501, 'min_child_samples': 87, 'bagging_fraction': 0.5545999804287509, 'feature_fraction': 0.526731882289156, 'subsample_freq': 1, 'bagging_seed': 1540295535, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 08:26:59 PM]] best_score : 0.916322012601184
+[[10/23/2018 08:27:02 PM]] Fold : 0
+[[10/23/2018 08:31:55 PM]] Fold : 1
+[[10/23/2018 09:06:08 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 31, 'lambda_l2': 0.018506575177726154, 'lambda_l1': 0.02974521718306127, 'min_child_samples': 100, 'bagging_fraction': 0.8996487349995159, 'feature_fraction': 0.8103791541567962, 'subsample_freq': 1, 'bagging_seed': 1540297619, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 09:06:08 PM]] best_score : 0.9177365441339504
+[[10/23/2018 09:06:17 PM]] Fold : 0
+[[10/23/2018 09:11:06 PM]] Fold : 1
+[[10/23/2018 09:48:01 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 43, 'lambda_l2': 0.015853772938601813, 'lambda_l1': 0.042607172299411335, 'min_child_samples': 66, 'bagging_fraction': 0.9771989157353196, 'feature_fraction': 0.7952926283256245, 'subsample_freq': 1, 'bagging_seed': 1540299968, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 09:48:01 PM]] best_score : 0.9183112129512558
+[[10/23/2018 09:48:05 PM]] Fold : 0
+[[10/23/2018 09:53:12 PM]] Fold : 1
+[[10/23/2018 10:28:31 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 46, 'lambda_l2': 0.03930910316848585, 'lambda_l1': 0.03643135653445553, 'min_child_samples': 95, 'bagging_fraction': 0.7232515140402014, 'feature_fraction': 0.5345024778500502, 'subsample_freq': 1, 'bagging_seed': 1540302481, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 10:28:31 PM]] best_score : 0.9180851294270551
+[[10/23/2018 10:29:03 PM]] Fold : 0
+[[10/23/2018 10:37:14 PM]] Fold : 1
+[[10/23/2018 11:08:19 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 25, 'lambda_l2': 0.018555170549973177, 'lambda_l1': 0.006031884477099958, 'min_child_samples': 20, 'bagging_fraction': 0.7981896344476831, 'feature_fraction': 0.5670570942325512, 'subsample_freq': 1, 'bagging_seed': 1540304939, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 11:08:19 PM]] best_score : 0.917659675316193
+[[10/23/2018 11:08:40 PM]] Fold : 0
+[[10/23/2018 11:12:19 PM]] Fold : 1
+[[10/23/2018 11:49:13 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.015884702706472582, 'lambda_l1': 0.03172091205315889, 'min_child_samples': 20, 'bagging_fraction': 0.8716273219967471, 'feature_fraction': 0.9765042413301053, 'subsample_freq': 1, 'bagging_seed': 1540307318, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/23/2018 11:49:13 PM]] best_score : 0.9174441547281903
+[[10/23/2018 11:49:33 PM]] Fold : 0
+[[10/23/2018 11:54:10 PM]] Fold : 1
+[[10/24/2018 12:31:12 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.034823540972949096, 'lambda_l1': 0.01938063516564564, 'min_child_samples': 119, 'bagging_fraction': 0.6641560870458462, 'feature_fraction': 0.9817312413496174, 'subsample_freq': 1, 'bagging_seed': 1540309771, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 12:31:12 AM]] best_score : 0.9180634587756705
+[[10/24/2018 12:31:34 AM]] Fold : 0
+[[10/24/2018 12:37:00 AM]] Fold : 1
+[[10/24/2018 01:08:11 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 25, 'lambda_l2': 0.0275277233781363, 'lambda_l1': 0.04023031117429035, 'min_child_samples': 46, 'bagging_fraction': 0.9998024642321501, 'feature_fraction': 0.9628347984833423, 'subsample_freq': 1, 'bagging_seed': 1540312292, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 01:08:11 AM]] best_score : 0.9186922116638052
+[[10/24/2018 01:08:34 AM]] Fold : 0
+[[10/24/2018 01:11:46 AM]] Fold : 1
+[[10/24/2018 01:42:42 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 39, 'lambda_l2': 0.0421529550672865, 'lambda_l1': 0.013750700899069712, 'min_child_samples': 38, 'bagging_fraction': 0.9954506828446463, 'feature_fraction': 0.5118404915546892, 'subsample_freq': 1, 'bagging_seed': 1540314512, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 01:42:42 AM]] best_score : 0.9187470372919249
+[[10/24/2018 01:43:06 AM]] Fold : 0
+[[10/24/2018 01:46:56 AM]] Fold : 1
+[[10/24/2018 02:18:32 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.017893712373505028, 'lambda_l1': 0.011096465405020451, 'min_child_samples': 47, 'bagging_fraction': 0.9841584863403717, 'feature_fraction': 0.943540708298521, 'subsample_freq': 1, 'bagging_seed': 1540316583, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 02:18:32 AM]] best_score : 0.9177478347341878
+[[10/24/2018 02:18:54 AM]] Fold : 0
+[[10/24/2018 02:23:19 AM]] Fold : 1
+[[10/24/2018 02:54:49 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 31, 'lambda_l2': 0.047001647598641005, 'lambda_l1': 0.04093357930723246, 'min_child_samples': 21, 'bagging_fraction': 0.9964130668084668, 'feature_fraction': 0.9925556357331122, 'subsample_freq': 1, 'bagging_seed': 1540318732, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 02:54:49 AM]] best_score : 0.9180777096114521
+[[10/24/2018 02:55:12 AM]] Fold : 0
+[[10/24/2018 03:01:07 AM]] Fold : 1
+[[10/24/2018 03:32:18 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 28, 'lambda_l2': 0.0452740399723191, 'lambda_l1': 0.026277789091507922, 'min_child_samples': 119, 'bagging_fraction': 0.994543733337983, 'feature_fraction': 0.6657598566440239, 'subsample_freq': 1, 'bagging_seed': 1540320910, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 03:32:18 AM]] best_score : 0.9185219923543408
+[[10/24/2018 03:32:41 AM]] Fold : 0
+[[10/24/2018 03:38:15 AM]] Fold : 1
+[[10/24/2018 04:09:14 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 40, 'lambda_l2': 0.025972641898294752, 'lambda_l1': 0.0376736933946967, 'min_child_samples': 116, 'bagging_fraction': 0.9934250164674674, 'feature_fraction': 0.514049070756194, 'subsample_freq': 1, 'bagging_seed': 1540323159, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 04:09:14 AM]] best_score : 0.9190406630054915
+[[10/24/2018 04:09:38 AM]] Fold : 0
+[[10/24/2018 04:15:04 AM]] Fold : 1
+[[10/24/2018 04:47:02 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.01054019762646291, 'lambda_l1': 0.04755817473193818, 'min_child_samples': 105, 'bagging_fraction': 0.9953893610923974, 'feature_fraction': 0.9858626447129114, 'subsample_freq': 1, 'bagging_seed': 1540325375, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 04:47:02 AM]] best_score : 0.9184332263341148
+[[10/24/2018 04:47:26 AM]] Fold : 0
+[[10/24/2018 04:52:25 AM]] Fold : 1
+[[10/24/2018 05:23:08 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 25, 'lambda_l2': 0.03856125094374145, 'lambda_l1': 0.042459970740063836, 'min_child_samples': 65, 'bagging_fraction': 0.9269343435585331, 'feature_fraction': 0.5086036601486452, 'subsample_freq': 1, 'bagging_seed': 1540327644, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 05:23:08 AM]] best_score : 0.9184591802249022
+[[10/24/2018 05:23:32 AM]] Fold : 0
+[[10/24/2018 05:28:13 AM]] Fold : 1
+[[10/24/2018 05:59:25 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 34, 'lambda_l2': 0.027340683336149474, 'lambda_l1': 0.0407829398575632, 'min_child_samples': 54, 'bagging_fraction': 0.9884980996472117, 'feature_fraction': 0.505965533260979, 'subsample_freq': 1, 'bagging_seed': 1540329809, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 05:59:25 AM]] best_score : 0.9188341354980296
+[[10/24/2018 05:59:50 AM]] Fold : 0
+[[10/24/2018 06:03:33 AM]] Fold : 1
+[[10/24/2018 06:34:34 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 25, 'lambda_l2': 0.02761305009604564, 'lambda_l1': 0.00013380330585494594, 'min_child_samples': 111, 'bagging_fraction': 0.5170710102147787, 'feature_fraction': 0.5552003824077819, 'subsample_freq': 1, 'bagging_seed': 1540331988, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 06:34:34 AM]] best_score : 0.9171289172418988
+[[10/24/2018 06:35:02 AM]] Fold : 0
+[[10/24/2018 06:40:56 AM]] Fold : 1
+[[10/24/2018 07:12:22 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 25, 'lambda_l2': 0.027906566370394504, 'lambda_l1': 0.04342002597185193, 'min_child_samples': 35, 'bagging_fraction': 0.9958350752482362, 'feature_fraction': 0.5126532674156185, 'subsample_freq': 1, 'bagging_seed': 1540334100, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 07:12:22 AM]] best_score : 0.9185667900529304
+[[10/24/2018 07:12:48 AM]] Fold : 0
+[[10/24/2018 07:17:09 AM]] Fold : 1
+[[10/24/2018 07:48:33 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.018844062916253304, 'lambda_l1': 0.03725101338104098, 'min_child_samples': 115, 'bagging_fraction': 0.9998382460242236, 'feature_fraction': 0.515468951940196, 'subsample_freq': 1, 'bagging_seed': 1540336366, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 07:48:33 AM]] best_score : 0.9190653205909051
+[[10/24/2018 07:49:00 AM]] Fold : 0
+[[10/24/2018 07:52:57 AM]] Fold : 1
+[[10/24/2018 08:24:24 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.03416112878128931, 'lambda_l1': 0.030820917007652243, 'min_child_samples': 61, 'bagging_fraction': 0.9954911805764193, 'feature_fraction': 0.5018135169948627, 'subsample_freq': 1, 'bagging_seed': 1540338538, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 08:24:24 AM]] best_score : 0.9181255078876662
+[[10/24/2018 08:24:56 AM]] Fold : 0
+[[10/24/2018 08:29:52 AM]] Fold : 1
+[[10/24/2018 09:00:41 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 44, 'lambda_l2': 0.04417675153402721, 'lambda_l1': 0.008637011291699687, 'min_child_samples': 102, 'bagging_fraction': 0.9950509652655749, 'feature_fraction': 0.5052465321865853, 'subsample_freq': 1, 'bagging_seed': 1540340694, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 09:00:41 AM]] best_score : 0.918877686993858
+[[10/24/2018 09:01:09 AM]] Fold : 0
+[[10/24/2018 09:04:56 AM]] Fold : 1
+[[10/24/2018 09:36:14 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 49, 'lambda_l2': 0.044270106141322624, 'lambda_l1': 0.0382017926036438, 'min_child_samples': 31, 'bagging_fraction': 0.9943285633667844, 'feature_fraction': 0.7028133087899678, 'subsample_freq': 1, 'bagging_seed': 1540342867, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 09:36:14 AM]] best_score : 0.9182922954823403
+[[10/24/2018 09:36:46 AM]] Fold : 0
+[[10/24/2018 09:41:19 AM]] Fold : 1
+[[10/24/2018 10:13:19 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 46, 'lambda_l2': 0.035252216263952946, 'lambda_l1': 0.03451618854227418, 'min_child_samples': 119, 'bagging_fraction': 0.9065268702119198, 'feature_fraction': 0.5041616157977804, 'subsample_freq': 1, 'bagging_seed': 1540345004, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 10:13:19 AM]] best_score : 0.9186724304185576
+[[10/24/2018 10:13:58 AM]] Fold : 0
+[[10/24/2018 10:19:30 AM]] Fold : 1
+[[10/24/2018 10:56:04 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 32, 'lambda_l2': 0.04079629596798065, 'lambda_l1': 0.04828284059707758, 'min_child_samples': 113, 'bagging_fraction': 0.9983444402609021, 'feature_fraction': 0.5148551706201692, 'subsample_freq': 1, 'bagging_seed': 1540347231, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 10:56:04 AM]] best_score : 0.9185565382448531
+[[10/24/2018 10:56:39 AM]] Fold : 0
+[[10/24/2018 11:02:12 AM]] Fold : 1
+[[10/24/2018 11:46:36 AM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 38, 'lambda_l2': 0.010050468821686183, 'lambda_l1': 0.0037180855980378236, 'min_child_samples': 20, 'bagging_fraction': 0.991556537577434, 'feature_fraction': 0.506596117455695, 'subsample_freq': 1, 'bagging_seed': 1540349792, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 11:46:36 AM]] best_score : 0.9191146261972531
+[[10/24/2018 11:47:17 AM]] Fold : 0
+[[10/24/2018 11:50:22 AM]] Fold : 1
+[[10/24/2018 12:28:16 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 42, 'lambda_l2': 0.0005426654063982628, 'lambda_l1': 0.011963655590946788, 'min_child_samples': 26, 'bagging_fraction': 0.5130222095448409, 'feature_fraction': 0.5165128858840942, 'subsample_freq': 1, 'bagging_seed': 1540352827, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 12:28:16 PM]] best_score : 0.9165785237053539
+[[10/24/2018 12:28:50 PM]] Fold : 0
+[[10/24/2018 12:33:10 PM]] Fold : 1
+[[10/24/2018 01:04:45 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 26, 'lambda_l2': 0.006249704220960595, 'lambda_l1': 0.010811772467564679, 'min_child_samples': 56, 'bagging_fraction': 0.9948100369274078, 'feature_fraction': 0.5215120172193499, 'subsample_freq': 1, 'bagging_seed': 1540355328, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 01:04:45 PM]] best_score : 0.9179489131522436
+[[10/24/2018 01:05:26 PM]] Fold : 0
+[[10/24/2018 01:10:45 PM]] Fold : 1
+[[10/24/2018 01:42:10 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 25, 'lambda_l2': 0.020223211273325593, 'lambda_l1': 0.04980943280515745, 'min_child_samples': 80, 'bagging_fraction': 0.9978724127820839, 'feature_fraction': 0.5628026839916632, 'subsample_freq': 1, 'bagging_seed': 1540357520, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 01:42:10 PM]] best_score : 0.9189672675260947
+[[10/24/2018 01:42:46 PM]] Fold : 0
+[[10/24/2018 01:47:55 PM]] Fold : 1
+[[10/24/2018 02:20:26 PM]] best_parameters : {'objective': 'binary', 'metric': 'None', 'num_leaves': 33, 'lambda_l2': 0.04285718588008272, 'lambda_l1': 0.0019014446555446207, 'min_child_samples': 72, 'bagging_fraction': 0.9954004163335746, 'feature_fraction': 0.5020449170516352, 'subsample_freq': 1, 'bagging_seed': 1540359762, 'max_depth': -1, 'learning_rate': 0.1, 'num_threads': 16, 'verbose': 1}
+[[10/24/2018 02:20:26 PM]] best_score : 0.9184930577427333

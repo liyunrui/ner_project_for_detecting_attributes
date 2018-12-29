@@ -1,0 +1,2 @@
+[[10/04/2018 05:22:11 PM]] it spend 0.06592487891515096 mins on preprocessing
+[[10/04/2018 05:22:11 PM]] shape of df : (253553, 5)

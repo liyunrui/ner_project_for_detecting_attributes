@@ -1,0 +1,4 @@
+[[10/24/2018 12:17:27 PM]] it spend 0.00021921793619791667 mins on preprocessing
+[[10/24/2018 12:31:06 PM]] it spend 13.643256791432698 mins on word embedding 
+[[10/24/2018 12:31:06 PM]] number of sequences : 2
+[[10/24/2018 12:31:06 PM]] item_id : 0
